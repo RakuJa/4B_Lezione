@@ -16,6 +16,7 @@ long_options = ["help", "db_version="]
 
 def handle_command_line_arguments() -> Optional[str]:
     try:
+        print("ciao")
         # Parsing argument
         arguments, values = getopt.getopt(argumentList, options, long_options)
 
